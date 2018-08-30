@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body{		
+	 display: block;
+     margin: 0;
+     padding: 0;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+	 z-index: -1;
+	
+}
+.hp{
+	top:0;
+	height: 200px;
+	width: 80%;
+	margin: auto;
+
+	z-index: 0;
+	
+}
+.bgimage{
+	padding: 2px;
+	z-index: 1;
+}
+.colr{
+	font-size: 20px;	
+}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 2px;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+	margin: 0 4px;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+ul.pagination li a:hover:not(.active) {
+	background-color: #ddd;
+	margin-top: 4px;
+}
+
+
+
+
+
+
+
+
+
