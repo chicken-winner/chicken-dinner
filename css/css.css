@@ -9,51 +9,80 @@ body{
      bottom: 0;
      left: 0;
 	 z-index: -1;
-	
+	 background-color: black;
 }
 .hp{
 	top:0;
-	height: 200px;
+	height: 100px;
 	width: 80%;
 	margin: auto;
-
 	z-index: 0;
 	
 }
 .bgimage{
 	padding: 2px;
 	z-index: 1;
+	width: 80%;
+	margin: 0 auto;
 }
-.colr{
-	font-size: 20px;	
-}
-ul.pagination {
+ul.menu {
     display: inline-block;
     padding: 0;
-    margin: 2px;
+  	display: -webkit-flex;  
+    -webkit-justify-content: center;  
+    -webkit-align-items: center;
+	list-style-type:none;
+	background-color:hsla(0,0%,0%,1.00);
 }
-
-ul.pagination li {display: inline;}
-
-ul.pagination li a {
+ul.menu li a {display: inline;}
+ul.menu li{
+	height: 20px;
+	margin-bottom: 14px;
+	z-index: 2;
+}
+ul.menu li a {
     color: black;
     float: left;
+	font-size:16px;
+	font-family: "微软雅黑",tahoma,"宋体",sans-serif;
+	color: white;
+	text-align:center;
     padding: 8px 16px;
     text-decoration: none;
-    border-radius: 5px;
-	margin: 0 4px;
+	margin: 0px;
+	width: 70px;
+	height: 20px;
 }
-
-ul.pagination li a.active {
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
+.menu2 {
+	padding: 0;
+  	display: -webkit-flex;  
+    -webkit-justify-content: center;  
+    -webkit-align-items: center;
+	list-style-type:none;
 }
-ul.pagination li a:hover:not(.active) {
-	background-color: #ddd;
-	margin-top: 4px;
+ul.menu li a.active {
+    background-color: hsla(0,2%,76%,0.68);
+    color: #e69800;
+	border-left:solid  1px hsla(0,0%,0%,0.90);
+	border-right:solid  1px hsla(0,0%,0%,0.90)}
+ul.menu li a:hover:not(.active) {
+	color: #e69800;	
+	background-color: hsla(0,2%,76%,0.68);
 }
-
+ul.menu li:hover .menu2{
+	display: block;
+}
+ul.menu li:hover .menu2 li a{
+	background-color: hsla(0,0%,0%,0.56);
+}
+ul.menu li .menu2 li:hover a{
+	color: #e69800;	
+	background-color: hsla(0,2%,76%,0.48);
+}
+.menu2 {
+	display: none;
+	
+}
 
 
 
