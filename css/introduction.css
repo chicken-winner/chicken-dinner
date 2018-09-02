@@ -1,0 +1,16 @@
+@charset "utf-8";
+*{margin:0;padding:0;border:0;}
+.box{
+	width: 17%;
+	height: 500px;
+	border: 2px solid hsla(0,0%,61%,0.24);
+	margin: 0 1%;
+	display: inline;
+	float: left;
+}
+.container{
+	width:87%;
+	height: 520px;
+	margin: 25px auto;
+	padding-left: 16px;
+}

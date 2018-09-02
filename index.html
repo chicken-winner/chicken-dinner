@@ -2,34 +2,43 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>无标题文档</title>
+<title>chicken dinner</title>
 <link rel="stylesheet" href="css/css.css" type="text/css">
 </head>
-
 <body>
 <div class="hp">
 <ul class="menu">
- <a href="source/logo.png"></a><img src="source/logo.png">
-  <li><a href="index.html" class="active" >主页</a></li>	
-  <li><a href="GameIntroductioin.html" >游戏介绍</a></li>
-  <li><a href="#">游戏玩法</a></li> 
-  <li>
-  	<a href="#">物品装备</a>
-  	<ul class="menu2">
-  		<li><a href="#">武器</a></li>
-  		<li><a href="#">载具</a></li>
-  		<li><a href="#">补给</a></li>
-  		<li><a href="#">配件</a></li>
-  	</ul>
+  <a href="首页.html"><img src="source/logo.png" ></a>
+  <li><a href="index.html">主页</a></li>
+  <li><a href="pages/GameIntroductioin.html" >游戏介绍</a></li>
+  <li><a href="pages/game play.html">游戏玩法</a></li>
+  <li> <a>物品装备</a>
+    <ul class="menu2">
+      <li><a href="pages/GameIntroductioinweapon.html">武器</a></li>
+      <li><a href="pages/vehicle.html">载具</a></li>
+      <li><a href="pages/supply.html">补给</a></li>
+      <li><a href="pages/parts for weapon.html">配件</a></li>
+    </ul>
   </li>
-  <li><a href="#">游戏地图</a> </li>
-  <li><a href="#">游戏攻略</a> </li>
-  <li><a href="#">评价影响</a> </li>
-  <li><a href="#">团队介绍</a> </li>
+  <li> <a>游戏地图</a>
+    <ul class="menu2">
+      <li><a href="pages/island.html">海岛</a></li>
+      <li><a href="pages/dessert.html">沙漠</a></li>
+      <li><a href="pages/forest.html">雨林</a></li>
+    </ul>
+  </li>
+  <li><a href="pages/game strategy.html">游戏攻略</a></li>
+  <li><a href="pages/effection.html">评价影响</a></li>
+  <li><a href="pages/team introduction.html">团队介绍</a></li>
 </ul>
 </div>
-<div class="bgimage" >
-  <a href="source/background/hdimage.jpg"><img src="source/background/hdimage.jpg" width="100%" height="200px"></a>
+<div class="viedo">
+	<video autoplay  width="1150">
+		<source src="source/viedo/index_viedo.mp4"  type="video/mp4" />
+	</video>
+</div>
+<div style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height:100%; width: 100%; z-index: -99; position: fixed;">
+	<img style="position: absolute; margin: 0px; padding: 0px; border: none;z-index: -99; left: 0px;"src="source/background/1324.jpg">
 </div>
 </body>
 </html>

@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+*{margin:0;padding:0;border:0;}
 body{		
 	 display: block;
      margin: 0;
@@ -8,31 +9,23 @@ body{
      right: 0;
      bottom: 0;
      left: 0;
-	 z-index: -1;
-	 background-color: black;
+	 z-index: -1;  
 }
 .hp{
 	top:0;
 	height: 100px;
-	width: 80%;
-	margin: auto;
-	z-index: 0;
-	
-}
-.bgimage{
-	padding: 2px;
-	z-index: 1;
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
+	z-index: 0;
 }
 ul.menu {
     display: inline-block;
-    padding: 0;
+	height: 88px;
   	display: -webkit-flex;  
     -webkit-justify-content: center;  
     -webkit-align-items: center;
 	list-style-type:none;
-	background-color:hsla(0,0%,0%,1.00);
+	background-image: url(../source/background/bg_top.png)
 }
 ul.menu li a {display: inline;}
 ul.menu li{
@@ -44,7 +37,7 @@ ul.menu li a {
     color: black;
     float: left;
 	font-size:16px;
-	font-family: "微软雅黑",tahoma,"宋体",sans-serif;
+	font-family: "微软雅黑";
 	color: white;
 	text-align:center;
     padding: 8px 16px;
@@ -67,7 +60,7 @@ ul.menu li a.active {
 	border-right:solid  1px hsla(0,0%,0%,0.90)}
 ul.menu li a:hover:not(.active) {
 	color: #e69800;	
-	background-color: hsla(0,2%,76%,0.68);
+	
 }
 ul.menu li:hover .menu2{
 	display: block;
@@ -80,13 +73,31 @@ ul.menu li .menu2 li:hover a{
 	background-color: hsla(0,2%,76%,0.48);
 }
 .menu2 {
-	display: none;
-	
+	display: none;	
+}
+.viedo{
+	margin: 0 auto;
+	list-style-type:none;
+	border:  2px solid hsla(0,2%,76%,0.48);
+	width: 1150px;
+	height: 646px;
+}
+.wl{
+	width: 160px;
+	height: 60px;
+	z-index: 0;
+	margin: auto;
+	margin-top: 35%;
+	text-align:center;	
 }
 
-
-
-
+.wl a{
+	
+	font-family: "微软雅黑";
+	font-size:27px;
+	color: hsla(43,79%,44%,1.00);
+	text-decoration: none;
+}
 
 
 
