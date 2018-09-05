@@ -7,7 +7,7 @@ document.writeln("<link rel=\'stylesheet\' href=\'../css/css.css\' type=\'text/c
 document.writeln("");
 document.writeln("</head>");
 document.writeln("");
-document.writeln("<body>");
+document.writeln("<body style=\'background-image:url(../source/background/bgimg.jpg\'>");
 document.writeln("<div class=\'hp\'>");
 document.writeln("<ul class=\'menu\'>");
 document.writeln(" <a href=\'../首页.html\'><img src=\'../source/logo.png\'></a>");
@@ -35,9 +35,6 @@ document.writeln("  <li><a href=\'game strategy.html\'>游戏攻略</a> </li>");
 document.writeln("  <li><a href=\'effection.html\'>评价影响</a> </li>");
 document.writeln("  <li><a href=\'team introduction.html\'>团队介绍</a> </li>");
 document.writeln("</ul>");
-document.writeln("</div>");
-document.writeln("<div style=\'left: 0px; top: 0px;margin: 0px; padding: 0px; height:100%; width: 100%; z-index: -99; position: fixed;\'>");
-document.writeln("	<img style=\'position: absolute; margin: 0px; padding: 0px; border: none;z-index: -999999; left:0px; \'src=\'../source/background/bgimg.jpg\'>");
 document.writeln("</div>");
 document.writeln("</body>");
 document.writeln("</html>");
